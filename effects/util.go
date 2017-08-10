@@ -1,8 +1,8 @@
 package effects
 
 import (
-	"github.com/walesey/go-engine/engine"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/engine"
+	"github.com/limeschnaps/go-engine/renderer"
 )
 
 type TimedParticleGroup struct {

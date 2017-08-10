@@ -1,6 +1,6 @@
 package ui
 
-import "github.com/walesey/go-engine/util"
+import "github.com/limeschnaps/go-engine/util"
 
 func getDefaultFont() []byte {
 	return util.Base64ToBytes(defaultFontData)

@@ -11,8 +11,8 @@ import (
 	"github.com/go-gl/gl/v4.1-core/gl"
 	"github.com/go-gl/glfw/v3.1/glfw"
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/renderer"
-	"github.com/walesey/go-engine/util"
+	"github.com/limeschnaps/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/util"
 )
 
 const MAX_POINT_LIGHTS = 4

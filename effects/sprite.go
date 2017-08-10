@@ -4,8 +4,8 @@ import (
 	"image/color"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/renderer"
-	"github.com/walesey/go-engine/util"
+	"github.com/limeschnaps/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/util"
 )
 
 type Sprite struct {

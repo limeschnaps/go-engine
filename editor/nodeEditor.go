@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/editor/models"
-	"github.com/walesey/go-engine/glfwController"
-	"github.com/walesey/go-engine/ui"
+	"github.com/limeschnaps/go-engine/editor/models"
+	"github.com/limeschnaps/go-engine/glfwController"
+	"github.com/limeschnaps/go-engine/ui"
 )
 
 func (e *Editor) closeNodeEditor() {

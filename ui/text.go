@@ -11,9 +11,9 @@ import (
 
 	"github.com/disintegration/imaging"
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/libs/freetype"
-	"github.com/walesey/go-engine/libs/freetype/truetype"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/libs/freetype"
+	"github.com/limeschnaps/go-engine/libs/freetype/truetype"
+	"github.com/limeschnaps/go-engine/renderer"
 
 	"golang.org/x/image/font"
 )
@@ -254,7 +254,7 @@ func NewTextElement(text string, textColor color.Color, textSize float32, textFo
 		props: textProps{
 			text:      text,
 			textColor: textColor,
-			textSize:  textSize,
+			textSize:  textSize * ImageScale,
 			textFont:  textFont,
 		},
 	}

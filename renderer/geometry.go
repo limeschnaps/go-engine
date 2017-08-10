@@ -4,7 +4,7 @@ import (
 	"image/color"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/util"
+	"github.com/limeschnaps/go-engine/util"
 )
 
 const VertexStride = 12
@@ -188,7 +188,8 @@ func CreateBox(width, height float32) *Geometry {
 
 func CreateBoxWithOffset(width, height, offsetX, offsetY float32) *Geometry {
 	verticies := []float32{
-		offsetX, height + offsetY, 0, 0, 1, 0, 0, 0, 1.0, 1.0, 1.0, 1.0,
+		//    x,                y, z, nx, ny, nz, u, v,   r,   g,   b,   a
+		offsetX, height + offsetY, 0,  0,  1,  0, 0, 0, 1.0, 1.0, 1.0, 1.0,
 		width + offsetX, height + offsetY, 0, 0, 1, 0, 1, 0, 1.0, 1.0, 1.0, 1.0,
 		width + offsetX, offsetY, 0, 0, 1, 0, 1, 1, 1.0, 1.0, 1.0, 1.0,
 		offsetX, offsetY, 0, 0, 1, 0, 0, 1, 1.0, 1.0, 1.0, 1.0,

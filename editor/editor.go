@@ -6,17 +6,17 @@ import (
 	"path/filepath"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/actor"
-	"github.com/walesey/go-engine/assets"
-	"github.com/walesey/go-engine/controller"
-	"github.com/walesey/go-engine/editor/models"
-	"github.com/walesey/go-engine/effects"
-	"github.com/walesey/go-engine/engine"
-	"github.com/walesey/go-engine/glfwController"
-	"github.com/walesey/go-engine/opengl"
-	"github.com/walesey/go-engine/renderer"
-	"github.com/walesey/go-engine/ui"
-	"github.com/walesey/go-engine/util"
+	"github.com/limeschnaps/go-engine/actor"
+	"github.com/limeschnaps/go-engine/assets"
+	"github.com/limeschnaps/go-engine/controller"
+	"github.com/limeschnaps/go-engine/editor/models"
+	"github.com/limeschnaps/go-engine/effects"
+	"github.com/limeschnaps/go-engine/engine"
+	"github.com/limeschnaps/go-engine/glfwController"
+	"github.com/limeschnaps/go-engine/opengl"
+	"github.com/limeschnaps/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/ui"
+	"github.com/limeschnaps/go-engine/util"
 )
 
 type Editor struct {

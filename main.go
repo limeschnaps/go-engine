@@ -5,9 +5,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/walesey/go-engine/controller"
-	"github.com/walesey/go-engine/editor"
-	"github.com/walesey/go-engine/glfwController"
+	"github.com/limeschnaps/go-engine/controller"
+	"github.com/limeschnaps/go-engine/editor"
+	"github.com/limeschnaps/go-engine/glfwController"
 )
 
 func init() {

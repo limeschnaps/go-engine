@@ -4,8 +4,10 @@ import (
 	"image"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/renderer"
 )
+
+const ImageScale float32 = 2
 
 type ImageElement struct {
 	id            string
@@ -32,7 +34,7 @@ func (ie *ImageElement) Render(size, offset mgl32.Vec2) mgl32.Vec2 {
 			height = width * float32(ie.img.Bounds().Size().Y) / float32(ie.img.Bounds().Size().X)
 		}
 	}
-	imgSize := mgl32.Vec2{width, height}
+	imgSize := mgl32.Vec2{width / ImageScale, height / ImageScale}
 	ie.node.SetScale(imgSize.Vec3(0))
 	ie.node.SetTranslation(offset.Vec3(0))
 	ie.offset = offset

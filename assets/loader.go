@@ -3,8 +3,8 @@ package assets
 import (
 	"log"
 
-	"github.com/walesey/go-engine/editor/models"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/editor/models"
+	"github.com/limeschnaps/go-engine/renderer"
 )
 
 type geomImport struct {

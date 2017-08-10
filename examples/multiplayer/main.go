@@ -9,14 +9,14 @@ import (
 	"runtime"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/assets"
-	"github.com/walesey/go-engine/controller"
-	"github.com/walesey/go-engine/engine"
-	"github.com/walesey/go-engine/glfwController"
-	"github.com/walesey/go-engine/networking"
-	"github.com/walesey/go-engine/opengl"
-	"github.com/walesey/go-engine/renderer"
-	"github.com/walesey/go-engine/util"
+	"github.com/limeschnaps/go-engine/assets"
+	"github.com/limeschnaps/go-engine/controller"
+	"github.com/limeschnaps/go-engine/engine"
+	"github.com/limeschnaps/go-engine/glfwController"
+	"github.com/limeschnaps/go-engine/networking"
+	"github.com/limeschnaps/go-engine/opengl"
+	"github.com/limeschnaps/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/util"
 )
 
 /*
@@ -48,7 +48,7 @@ func init() {
 	//Set default glfw controller
 	controller.SetDefaultConstructor(glfwController.NewActionMap)
 	// set working dir to access assets
-	p, _ := build.Import("github.com/walesey/go-engine", "", build.FindOnly)
+	p, _ := build.Import("github.com/limeschnaps/go-engine", "", build.FindOnly)
 	os.Chdir(p.Dir)
 }
 

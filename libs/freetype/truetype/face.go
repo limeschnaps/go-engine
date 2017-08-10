@@ -8,7 +8,7 @@ package truetype
 import (
 	"image"
 
-	"github.com/walesey/go-engine/libs/freetype/raster"
+	"github.com/limeschnaps/go-engine/libs/freetype/raster"
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 )

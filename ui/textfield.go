@@ -5,8 +5,8 @@ import (
 	"image/color"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/libs/freetype/truetype"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/libs/freetype/truetype"
+	"github.com/limeschnaps/go-engine/renderer"
 )
 
 type TextField struct {

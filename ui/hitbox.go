@@ -2,8 +2,8 @@ package ui
 
 import (
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/emitter"
-	"github.com/walesey/go-engine/util"
+	"github.com/limeschnaps/go-engine/emitter"
+	"github.com/limeschnaps/go-engine/util"
 )
 
 type Hitbox interface {

@@ -2,8 +2,8 @@ package actor
 
 import (
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/physics/physicsAPI"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/physics/physicsAPI"
+	"github.com/limeschnaps/go-engine/renderer"
 )
 
 //an actor that can move around bound by physics (gravity), can jump, can walk/run

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/go-gl/gl/v4.1-core/gl"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/renderer"
 )
 
 type postEffect struct {

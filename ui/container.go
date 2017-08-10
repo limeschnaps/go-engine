@@ -6,7 +6,7 @@ import (
 	"sort"
 
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/walesey/go-engine/renderer"
+	"github.com/limeschnaps/go-engine/renderer"
 )
 
 type Margin struct {
